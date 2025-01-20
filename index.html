@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Goolge Multiple Conveter</title>
+</head>
+
+<body id="docBody">
+    <h2 class="mt-5 headingStyle text-center">Multiple Converter</h2>
+
+
+    <main class="multiple_conveter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="multiple_conveter_wrapper">
+
+                        <div class="select_category">
+                            <label for="category_select"></label>
+
+                            <select name="" class="text_input form-control" id="category_select">
+                                <option value="mass">Mass</option>
+                                <option value="weight">Weight</option>
+                                <option value="area">Area</option>
+                            </select>
+
+                        </div>
+
+
+
+                        <div class="d-flex align-items-center gap-2">
+                            
+                            <div class=" conveter_item">
+                            <input type="text" class="text_input form-control" id="leftInp">
+                            <select class="text_input form-control" name="" id="leftSelect">
+                                <option value="KM">Kilometer</option>
+                                <option value="M">Meter</option>
+                                <option value="CM">Centimeter</option>
+                            </select>
+                        </div>
+                        <div> = </div>
+                        <div class="conveter_item">
+                            <input type="text" class="text_input form-control" id="rightInp">
+                            <select class="text_input form-control" name="" id="rightSelect">
+                                <option value="KM">Kilometer</option>
+                                <option value="M">Meter</option>
+                                <option value="CM">Centimeter</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="formulla">
+                        <h4>Formulla</h4>
+                        <span id="formullaText">Formulla Text</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
